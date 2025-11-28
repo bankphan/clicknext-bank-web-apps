@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { FaMoneyBillWave, FaHistory, FaTimes } from 'react-icons/fa'
+import { FaMoneyBillWave, FaHistory } from 'react-icons/fa'
 
 const Sidebar = () => {
   return (
