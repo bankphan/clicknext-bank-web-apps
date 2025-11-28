@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-import LoginPage from './pages/loginPage.jsx'
+import LoginPage from './pages/LoginPage.jsx'
 import DepositWithdrawPage from './pages/DepositWithdrawPage.jsx'
 import MainLayout from './layouts/MainLayout.jsx'
 import TransactionPage from './pages/TransactionPage.jsx'
