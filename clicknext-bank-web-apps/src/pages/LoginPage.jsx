@@ -18,9 +18,7 @@ const LoginPage = () => {
   }, [isLoggedIn, navigate]);
 
   const validateEmail = (email) => {
-    return String(email)
-      .toLowerCase()
-      .match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/);
+    return String(email).toLowerCase().match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/);
   };
 
   const handleSubmit = (e) => {
