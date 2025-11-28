@@ -20,7 +20,7 @@ const Sidebar = () => {
             Transaction History
           </NavLink>
         </div>        
-        <div className="mt-auto text-muted small text-center py-3 border-top">© 2025 bankphan</div>
+        <div className="mt-auto small text-center py-3 border-top">© 2025 bankphan</div>
       </div>
     </div>
   );
