@@ -7,7 +7,7 @@ const Sidebar = () => {
     <div className="offcanvas-md offcanvas-start bg-white border-end" tabIndex="-1" id="sidebarMenu" style={{ width: '300px' }}>
       <div className="offcanvas-header border-bottom">
         <h5 className="offcanvas-title fw-bold">Menu</h5>
-        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu" aria-label="Close"></button>
+        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu"></button>
       </div>
       <div className="offcanvas-body d-flex flex-column p-3 h-100">
         <div className="d-grid gap-2">
